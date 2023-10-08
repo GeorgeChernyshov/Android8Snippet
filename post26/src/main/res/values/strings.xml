@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">post26</string>
+    <string name="app_name">Android8Snippet-post26</string>
+
+    <!-- Activity labels -->
+    <string name="label_pip_activity">post26-Picture-In-Picture</string>
+
+    <!-- Button labels -->
+    <string name="button_enter_pip">Enter picture-in-picture</string>
+    <string name="button_load_video">Load video</string>
 </resources>
