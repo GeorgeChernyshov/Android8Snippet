@@ -1,4 +1,4 @@
-package com.example.android8snippet
+package com.example.pre26
 
 import org.junit.Test
 

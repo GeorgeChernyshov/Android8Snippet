@@ -1,4 +1,4 @@
-package com.example.android8snippet
+package com.example.pre26
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Android8Snippet</string>
+    <string name="app_name">Android8Snippet-pre26</string>
+
+    <!-- Activity labels -->
+    <string name="label_new_features">pre26-New Features</string>
+
+    <!-- Button labels -->
+    <string name="button_send_chat_notification">Send notification</string>
 </resources>

@@ -2,9 +2,19 @@
     <string name="app_name">Android8Snippet-post26</string>
 
     <!-- Activity labels -->
+    <string name="label_new_features">New Features</string>
     <string name="label_pip_activity">post26-Picture-In-Picture</string>
 
     <!-- Button labels -->
     <string name="button_enter_pip">Enter picture-in-picture</string>
+    <string name="button_go_next">Next Screen</string>
     <string name="button_load_video">Load video</string>
+    <string name="button_send_chat_notification">Send notification</string>
+
+    <!-- Notifications -->
+    <string name="notification_chat_channel_name">Chat Notification Channel</string>
+    <string name="notification_chat_channel_description">Chat channel description</string>
+    <string name="notification_reply">Reply Text. Refresh to check</string>
+    <string name="notification_title">My Notification</string>
+    <string name="notification_text">Notification text</string>
 </resources>

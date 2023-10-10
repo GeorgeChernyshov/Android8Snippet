@@ -11,6 +11,7 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.provider.MediaStore
+import android.support.annotation.RequiresApi
 import android.support.constraint.ConstraintLayout
 import android.support.constraint.ConstraintSet
 import android.support.v4.app.ActivityCompat
@@ -21,7 +22,6 @@ import android.util.Rational
 import android.util.TypedValue
 import android.view.View
 import android.view.ViewGroup.LayoutParams.MATCH_PARENT
-import androidx.annotation.RequiresApi
 import com.example.post26.databinding.ActivityPipBinding
 import java.io.File
 
@@ -74,6 +74,10 @@ class PipActivity : AppCompatActivity() {
                     enterPictureInPictureMode(updatePipParams())
                 }
             }
+        }
+
+        binding.goNextButton.setOnClickListener {
+            startActivity(Intent(this, NewFeaturesActivity::class.java))
         }
     }
 
