@@ -18,6 +18,9 @@ class NotificationHelper(private val context: Context) {
             .setContentText(context.getString(R.string.notification_text))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setOnlyAlertOnce(true)
+            .setNumber(10)
+            .setTimeoutAfter(10000)
+            .setColor(context.resources.getColor(R.color.purple_200))
             .setStyle(
                 NotificationCompat
                     .MessagingStyle("You")
@@ -47,7 +50,6 @@ class NotificationHelper(private val context: Context) {
                     .addRemoteInput(
                         RemoteInput.Builder(ReplyReceiver.KEY_TEXT_REPLY)
                             .setLabel("Enter reply")
-                            .setChoices(arrayOf("Nice", "Very well", "LOL"))
                             .build()
                     )
                     .build()
@@ -61,6 +63,5 @@ class NotificationHelper(private val context: Context) {
 
     companion object {
         var chatNotificationId = 0
-        var systemNotificationId = 1
     }
 }

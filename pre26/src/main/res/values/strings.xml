@@ -6,4 +6,9 @@
 
     <!-- Button labels -->
     <string name="button_send_chat_notification">Send notification</string>
+
+    <!-- Notifications -->
+    <string name="notification_reply">Reply Text. Refresh to check</string>
+    <string name="notification_title">My Notification</string>
+    <string name="notification_text">Notification text</string>
 </resources>

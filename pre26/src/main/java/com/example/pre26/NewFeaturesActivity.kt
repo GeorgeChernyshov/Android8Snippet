@@ -23,4 +23,10 @@ class NewFeaturesActivity : AppCompatActivity() {
                 .showNotification()
         }
     }
+
+    override fun onResume() {
+        super.onResume()
+
+        binding.replyTextView.text = DIUtils.replyRepository.replyText
+    }
 }

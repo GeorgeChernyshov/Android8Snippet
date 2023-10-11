@@ -13,4 +13,18 @@
         android:text="@string/button_send_chat_notification"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <TextView
+        android:id="@+id/replyTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/notification_reply"
+        app:layout_constraintTop_toBottomOf="@id/sendChatNotificationButton" />
+
+    <TextView
+        android:id="@+id/replyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/replyTitleTextView" />
+
 </android.support.constraint.ConstraintLayout>
