@@ -11,4 +11,7 @@
     <string name="notification_reply">Reply Text. Refresh to check</string>
     <string name="notification_title">My Notification</string>
     <string name="notification_text">Notification text</string>
+
+    <!-- Other -->
+    <string name="fonts_title">Fonts Test</string>
 </resources>
